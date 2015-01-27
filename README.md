@@ -1,8 +1,6 @@
 # Python box
 
-A [wercker box](http://devcenter.wercker.com/articles/boxes/) with python 2.7
-and 3.2 installed. For both versions of python setuptools, wheel, pip and
-virtualenv are installed.
+A [wercker box](http://devcenter.wercker.com/articles/boxes/) with python 2.7.
 
 Includes an updated NodeJS w/ npm, version 0.10.26 as of 15.01.2013.
 
