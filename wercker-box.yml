@@ -127,3 +127,10 @@ default-build:
                 echo "python version $(python --version) running"
                 echo "pip version $(pip --version) running"
 
+          # Gulp bundle
+          - script:
+              name: build website editor js bundle
+              code: |
+                echo "gulp bundle:vendors"
+                echo "gulp bundle:editor"
+                echo "gulp bundle:site"
